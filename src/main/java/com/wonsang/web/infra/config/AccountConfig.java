@@ -64,8 +64,6 @@ public class AccountConfig extends WebSecurityConfigurerAdapter {
             .logoutUrl("/api/account/logout")
             .logoutSuccessHandler(customLogoutHandler())
     ;
-
-
   }
 
   @Bean
